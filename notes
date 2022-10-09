@@ -1,0 +1,8 @@
+mevzu komplekslik olduğunda ağaç yapısı gibi düşünmek faydalı.
+
+ recursive çağrılarda her bir çağrı için stackde tutulan yer iade edilir, böylece n heightlik bir tree oluşturan recursive çağrı sürecinde space conmplexity o(n) olur.
+
+ dinamik olarak base caseler yaratmak amaçlanabilir.
+
+ recursive çağrılarda tree oluşturan süreçler dynamic için çok müsait gibi duruyor. Aynı değere sahip nodlar memoization kullanılabilirliğine ima eder.
+
